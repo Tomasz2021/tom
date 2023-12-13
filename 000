@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wymiana Opon</title>
+</head>
+<body>
+    <form id="wymianaOponForm">
+        Numer Rejestracyjny: <input type="text" id="numerRejestracyjny" required><br>
+        Czy Opony Wymienione? <input type="checkbox" id="oponyWymienione"><br>
+        <button type="button" onclick="submitForm()">Potwierdź</button>
+    </form>
+
+    <script>
+        function submitForm() {
+            var numerRejestracyjny = document.getElementById("numerRejestracyjny").value;
+            var oponyWymienione = document.getElementById("oponyWymienione").checked;
+
+            https://docs.google.com/spreadsheets/d/1nxrGzmQxzuS474SGbSwpgD4IhacpARsoyAfEGzEpam4/edit#gid=0
+        }
+    </script>
+</body>
+</html>
